@@ -6,7 +6,5 @@ $(document).foundation();
 $(document).ready(function(){
   
   // Your Scripts
-  $(document).ready(function(){
-    // Target your .container, .wrapper, .post, etc.
-    $("#thing-with-videos").fitVids();
+$('container').fitVids();
   });
